@@ -9,7 +9,7 @@
     "test": "ng test",
     "dev": "lite-server",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist/decideapp"
+    "deploy": "gh-pages -d dist/decideapp/browser"
   },
   "prettier": {
     "overrides": [
@@ -50,5 +50,5 @@
     "lite-server": "^2.6.1",
     "typescript": "~5.8.2"
   },
-  "homepage": "https://mkltaneja.github.io/Decide-App/"
+  "homepage": "https://mkltaneja.github.io/DecideApp/"
 }
